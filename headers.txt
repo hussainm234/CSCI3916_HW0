@@ -1,0 +1,23 @@
+GET https://openlibrary.org/search.json?title=turing
+200   - status OK
+379 ms   -  response time
+
+Network
+Request Headers
+User-Agent: PostmanRuntime/7.51.1   -  identifies client application making the request
+Accept: */*  - shows the media type the client can handle in the response
+Postman-Token: e37f08ba-9f15-47a9-ada1-63d67a405649  - track and distinguish individual postman requests
+Host: openlibrary.org      - domain name of the server being requested
+Accept-Encoding: gzip, deflate, br    -  compression algorithms the client can decompress
+Connection: keep-alive     - requests TCP connection to stay open after the request
+
+Response Headers
+Server: nginx/1.28.1      - the web server handling the request
+Date: Sun, 01 Feb 2026 00:58:06 GMT    -  when server request was generated
+Content-Type: application/json   -  media type of the response body 
+Transfer-Encoding: chunked  -  response body sent in chunks
+Connection: keep-alive   -  confirms TCP connection will stay open 
+x-served-by: FastAPI    - custom header showing the backend header being used
+Referrer-Policy: no-referrer-when-downgrade    - security header controlling referrer information sent with requests 
+Content-Encoding: gzip    - shows response body compressed using gzip
+Response Body
